@@ -17,7 +17,6 @@
 
 <script>
 import threads from '~/assets/threads.json';
-//console.log("threads",threads);
 export default {
     asyncData(context) {
         console.log("Slug ",context.params.slug);
