@@ -1,4 +1,5 @@
 const pkg = require('./package')
+const settings = require('./settings.json');
 
 module.exports = {
   mode: 'universal',
@@ -16,6 +17,10 @@ module.exports = {
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ]
+  },
+
+  env: {
+    apiEndpoint: settings.endpoint,
   },
 
   /*
