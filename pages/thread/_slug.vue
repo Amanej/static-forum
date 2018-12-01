@@ -2,8 +2,9 @@
   <section class="thread">
     <h2>{{thread.title}}</h2>
     <div class="posts">
-        <div class="post">
-            {{thread.description}}
+        <div class="post" v-for="(post,index) in thread.posts" :key="index">
+            <p>{{post.content}}</p>
+            <span>{{post.user}}</span>
         </div>
     </div>
     <form name="post-answer">

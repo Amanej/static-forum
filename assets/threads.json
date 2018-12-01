@@ -2,7 +2,24 @@
     {
         "slug": "first-thread",
         "title": "First Thread",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum"
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+        "posts": [
+            {
+                "user": "Aman",
+                "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod",
+                "date": null
+            },
+            {
+                "user": "James Bond",
+                "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod",
+                "date": null
+            },
+            {
+                "user": "Cameron Diaz",
+                "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod",
+                "date": null
+            }
+        ]
     },
     {
         "slug": "second-thread",
